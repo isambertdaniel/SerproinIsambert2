@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+$azul-claro: lightblue;
+$blanco: white;
+$padding-stand: 5px;
+$azul-oscuro: #0C2E89;
+
+
+body {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  /* margin: 0% 5%; */
+}
+
+h1, h2, h3 {
+  padding: $padding-stand;
+  border-radius: $padding-stand;
+  background-color: $azul-claro;
+  color: $azul-oscuro;
+  margin: 30px 0px !important;
+}
+
+//aplicando variable y operadores
+form {
+  background-color: $blanco;
+  padding: $padding-stand*3;
+}
+
+/* Tamaño ampliado para mapa */
+#contactanos iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.justificar {
+  text-align: justify;
+}
+
+.imagenServicio {
+  width: 100%;
+  height: 300px;
+  background-image: url("../multimedia/imagenes/servicios2.jpeg");
+  background-size: cover;
+  background-position: right;
+
+}
+
+.imagenUbiquiti {
+  width: 1300px;
+  height: 200px;
+  background-image: url("../multimedia/imagenes/ubiquiti.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat-x;
+}

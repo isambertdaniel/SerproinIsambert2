@@ -1,0 +1,43 @@
+/* Estilo para comentario clientes - index */
+
+$altura-stand: 5px;
+
+
+.flex2 div {
+ margin: 5px 10px;
+text-align: center;
+}
+
+.flex2 div img{
+  height: $altura-stand*8;
+}
+
+.flex2 div img:hover{
+  transform: scale(1.5,1.5);
+}
+
+.flex2 div p{
+  margin: 0;
+  background-color: transparent !important;
+}
+
+.flex2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:nowrap;
+  }
+
+	/*------Aplicando Flex Box----------*/
+
+	.flex {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: space-around;
+	}
+
+	.flex img {
+	  width: 30%;
+
+	}

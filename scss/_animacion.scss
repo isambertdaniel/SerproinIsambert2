@@ -1,0 +1,18 @@
+
+#imagen1 {
+  animation-duration: 4s;
+  animation-name: slidein;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+
+  }
+
+  to {
+    margin-right: 0%;
+
+  }
+}

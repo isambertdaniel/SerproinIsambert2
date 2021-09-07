@@ -1,0 +1,46 @@
+/*------Aplicando Grids----------*/
+
+.grid {
+  background-color: white;
+  height: 15vh;
+  display: grid;
+  /* definir columnas y ancho  */
+  grid-template-columns: 8fr;
+  /* cantidad de filas y altura */
+  grid-template-rows: 8fr;
+}
+
+.grid-contacto {
+  /* height: 50vh; */
+  display: grid;
+  /* definir columnas y ancho  */
+  grid-template-columns: 1fr 1fr;
+  /* cantidad de filas y altura */
+  grid-template-rows: 1fr;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 60px;
+  grid-template-columns: auto auto;
+  background-color: white;
+  padding: 8px;
+}
+
+.grid-item {
+  border: 3px solid #0570A2;
+  padding: 20px;
+  font-size: 60px;
+  text-align: center;
+  background-position: center;
+  background-image: url("../multimedia/imagenes/marcahp.jpg");
+}
+
+.grid-itemDell {
+  border: 3px solid #0570A2;
+  padding: 20px;
+  font-size: 60px;
+  text-align: center;
+  background-position: center;
+  background-image: url("../multimedia/imagenes/intel-logo.jpg");
+}

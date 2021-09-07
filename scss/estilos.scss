@@ -1,0 +1,52 @@
+
+/* Comentario de CSS puro */
+// Comentario de SCSS
+
+@import "generales";
+@import "footer";
+@import "flex";
+@import "grilla";
+@import "animacion";
+
+/* Aplicando Mobile First */
+
+@media (max-width: 768px) {
+  body {
+    margin: 1%;
+  }
+
+  .grid-container {
+
+    background-color: white;
+  }
+
+  .grid {
+    background-color: #a9a9a9;
+  }
+
+  .grid-contacto {
+
+    /* definir columnas y ancho  */
+    grid-template-columns: 1fr;
+
+
+  }
+
+  .flex2 {
+    flex-wrap: wrap !important;
+  }
+
+  #contactanos iframe {
+    height: 400px;
+    width: 99%;
+  }
+
+ .card img {
+   max-height: 150px;
+ }
+
+ .card {
+   text-align: center;
+ }
+
+}
